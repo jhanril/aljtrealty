@@ -78,11 +78,15 @@
                                     <div class="row">
                                         <div class="col-lg-3 col-md-3 col-sm-12 p-0">
                                             <input type="text" class="form-control c-search-input"
-                                                placeholder="Enter Pickup City">
+                                                placeholder="Find property enter location">
                                         </div>
                                         <div class="col-lg-3 col-md-3 col-sm-12 p-0">
-                                            <input type="text" class="form-control c-search-input"
-                                                placeholder="Enter Drop City">
+                                            <select class="form-control c-search-input">
+                                                <option selected value="for sale">For Sale</option>
+                                                <option value="for rent">For Rent</option>
+                                                <option value="for development">For Development</option>
+                                                <option value="forclosed">Forclosed</option>
+                                            </select>
                                         </div>
                                         <div class="col-lg-3 col-md-3 col-sm-12 p-0">
                                             <select class="form-control c-search-input">
@@ -98,7 +102,7 @@
                                             </select>
                                         </div>
                                         <div class="col-lg-3 col-md-3 col-sm-12 p-0">
-                                            <button type="button" class="btn btn-danger wrn-btn">Search</button>
+                                            <button type="button" class="btn btn-info c-btn">Search</button>
                                         </div>
                                     </div>
                                 </div>
