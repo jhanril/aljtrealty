@@ -45,7 +45,7 @@ a {
     url("../images/home_main_bg.jpg");
   background-size: cover;
   background-position: center;
-  height: 600px;
+  height: 750px;
 }
 .c-section {
   display: flex;
@@ -104,4 +104,13 @@ a {
   text-transform: capitalize;
   height: calc(3rem + 2px) !important;
   border-radius: 0;
+}
+
+@media (max-width: 768px) {
+  .c-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
