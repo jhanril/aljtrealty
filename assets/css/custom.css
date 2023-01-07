@@ -1,7 +1,3 @@
-body {
-  height: 1000px;
-}
-
 a {
   text-decoration: none;
 }
@@ -43,14 +39,22 @@ a {
   border-bottom: 2px solid #373434;
 }
 
-/* row  */
-/* .c-bg-home {
+.parallax {
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax-static {
   background-image: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 15%)),
     url("../images/home_main_bg.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 750px;
-} */
+}
+
 .c-section {
   display: flex;
   align-items: center;
