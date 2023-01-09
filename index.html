@@ -66,7 +66,7 @@
         </div>
     </nav>
 
-    <div class="container-fluid c-section parallax" id="parallax-static"> <!-- c-bg-home -->
+    <div class="container-fluid c-section parallax" id="main_banner"> <!-- c-bg-home -->
         <div class="container c-section-v">
             <div class="c-section-h">
                 <h2 class="c-h2 c-section">
@@ -123,8 +123,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 col-md-7 col-sm-12">
-                    <h2 class="text-uppercase c-cta-h2">Do you want to be a need help?</h2>
-                    <h5 class="text-uppercase">Contact our Sales Specialist now!</h5>
+                    <h2 class="text-uppercase c-cta-h2">Do you need help?</h2>
+                    <h6 class="text-uppercase">Contact our Sales Specialist now!</h6>
                 </div>
                 <div class="col-lg-3 col-md-5 col-sm-12 text-left text-sm-right">
                     <a href="https://www.totoprayogo.com" target="_blank"
@@ -195,6 +195,17 @@
         </div>
     </div>
 
+    <div class="container-fluid c-section parallax" id="bg-2"> <!-- c-bg-home -->
+        <div class="container c-section-v">
+            <div class="c-section-h">
+                <h2 class="c-h2 c-section">
+                    <span class="c-text-fp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repellendus,
+                        provident similique odio et quae alias maiores iure optio praesentium! </span>
+                </h2>
+            </div>
+        </div>
+    </div>
+
 
     <script>
         const swiper = new Swiper('.swiper', {
@@ -202,6 +213,11 @@
             slidesPerView: 2,
             spaceBetween: 10,
             grabCursor: true,
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
 
             // Responsive breakpoints
             breakpoints: {
