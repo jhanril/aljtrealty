@@ -1,0 +1,77 @@
+#about-banner {
+  background-image: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 15%)),
+    url("../images/bg3.jpg");
+  height: 80vh;
+  max-height: 750px;
+}
+.c-text-fp {
+  text-shadow: 3px 1px #848484;
+}
+
+.about-box {
+  height: 140px;
+  display: inline-flex;
+  width: 330px;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000099;
+  position: relative;
+  border-right: 10px cyan;
+  border-left: 10px cyan;
+}
+
+.about-box:after {
+  content: "";
+  height: 4px;
+  width: 20%;
+  position: absolute;
+  bottom: 75%;
+  /* left: 10%; */
+  background: cyan;
+}
+.about-box:before {
+  content: "";
+  height: 4px;
+  width: 50%;
+  position: absolute;
+  top: 70%;
+  /* right: 0%; */
+  background: cyan;
+}
+
+.ver-line-r,
+.ver-line-l {
+  position: relative;
+}
+
+.ver-line-l::after {
+  content: "";
+  height: 52%;
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  left: 120%;
+  border: 3px solid #036868;
+  border-top: 0px;
+  border-bottom: 0;
+  transform: scale(2);
+}
+.ver-line-r::before {
+  content: "";
+  height: 49%;
+  width: 20px;
+  position: absolute;
+  top: 0%;
+  right: 120%;
+  border: 3px solid #036868;
+  border-top: 0px;
+  border-bottom: 0;
+  transform: scale(2);
+}
+
+@media (max-width: 993px) {
+  .ver-line-r::before,
+  .ver-line-l::after {
+    display: none;
+  }
+}
