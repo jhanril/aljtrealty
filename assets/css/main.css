@@ -413,6 +413,15 @@ section .section-title {
   .c-h2 {
     text-align: center;
   }
+  #find-deals {
+    background-image: linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 60%)),
+      url("../images/properties/paul-kapischka.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    height: 100vh;
+    max-height: 100vh;
+    min-height: 400px;
+  }
 }
 @media (max-width: 320px) {
   .c-h2 {
