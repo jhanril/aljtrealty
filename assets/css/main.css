@@ -380,6 +380,18 @@ section .section-title {
   margin-top: 1em;
 }
 
+.sign-in-card {
+  background: #3fdfff96;
+  backdrop-filter: blur(30px);
+  color: black;
+  font-weight: 500;
+}
+
+.sign-in-card a {
+  color: black;
+  text-decoration: underline;
+}
+
 @keyframes slide {
   from {
     transform: scaleX(0);
@@ -396,6 +408,14 @@ section .section-title {
     padding-bottom: 0px;
     margin-bottom: 10px;
   }
+}
+.rm-bg {
+  background: unset;
+}
+.sign-in-card button.btn-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 @media (max-width: 992px) {
