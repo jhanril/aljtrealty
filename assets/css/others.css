@@ -12,13 +12,13 @@
 }
 #rent-banner {
   background-image: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 15%)),
-    url("../images/bg-5.jpeg");
+    url("../images/bg-5.jpg");
   height: 80vh;
   max-height: 750px;
 }
 #foreclosed-banner {
   background-image: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 15%)),
-    url("../images/bg-4.jpg");
+    url("../images/bg-4.jpeg");
   height: 80vh;
   max-height: 750px;
 }
